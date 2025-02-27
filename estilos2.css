@@ -31,3 +31,50 @@ text-align: left;
             background-color: rgba(132, 171, 202, 0.4);
             color : black
 }
+.enlace{
+    text-align: left;
+    font-size: 30px;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#Seleccion1:target{
+    background-color: lightcyan;
+    border: 4px solid black;
+}
+#Seleccion2:target{
+    background-color: lightgreen;
+    border: 4px solid black;
+}
+#Seleccion3:target{
+    background-color: lightblue;
+    border: 4px solid black;
+}
+#Seleccion4:target{
+    background-color: lightgray;
+    border: 4px solid black;
+}
+#Seleccion5:target{
+    background-color: lightpink;
+    border: 4px solid black;
+}
+#Seleccion6:target{
+    background-color: lightcoral;
+    border: 4px solid black;
+}
+#Seleccion7:target{
+    background-color: lightseagreen;
+    border: 4px solid black;
+}
+#Seleccion8:target{
+    background-color: lightyellow;
+    border: 4px solid black;
+}
+#tamaño{
+    display: block;
+    margin: auto;
+    align-content: center;
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
