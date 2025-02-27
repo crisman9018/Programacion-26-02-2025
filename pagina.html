@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="cajanew">
+            <h1 class="center">MI PORTAFOLIO<h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Sobre mi</a></li>
+                        <li><a href="#portafolio">portafolio</a></li>
+                        <li><a href="#contacto">contacto</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <section id="about">
+        <h2>Sobre mi</h2>
+        <p>Hola soy Cristian , un desarrollador web apasionado por crear soluciones innovadoras.</p>
+    </section>
+    <section id="portafolio">
+        <h2>portafolio</h2>
+        <div class="galery">
+            <div class="project">
+                <img id=small src="for-blog-4.gif" alt="proyecto 1">
+                <p>Descripcion del proyecto 1</p>
+            </div>
+            <div class="project">
+                <img id=small src="RED.gif" alt="proyecto 2">
+                <p>Descripcion del proyecto 2</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nombre</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Correo Electrónico</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Mensaje</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>

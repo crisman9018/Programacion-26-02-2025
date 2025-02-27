@@ -1,0 +1,65 @@
+h1{
+    color: darkred;
+    font-size: 35px;
+}
+#nombre{
+    color: darkorange;
+    background-color: #04ceac;
+}
+.cualquiera{
+    color: dodgerblue;
+}
+    .caja{  
+        width: 700px;
+        height: 850px;
+        margin: 10px;
+        padding: 50px;
+        border: 3px solid yellow}
+        .cajanext{  
+            width: 600px;
+            height: 300px;
+            margin: 20px;
+            padding: 20px;
+            border: 3px solid yellow}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    width: 50%;
+    height: 150px;
+    background-color: bisque;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.grid-item{
+    background-color: lightgreen;
+    padding: 20px;
+}
+@media (max-width:600px){
+    .contenedor{
+        flex-direction: column;
+    }
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: blue;
+}
+#small{
+    width: 40%;
+    height: auto;
+}
+.project {
+    text-align: center; 
+}
