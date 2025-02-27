@@ -63,3 +63,15 @@ th {
 .project {
     text-align: center; 
 }
+.center{
+    text-align: center;
+}
+#about:target {
+    background-color: lightcyan;
+}
+#portafolio:target {
+    background-color: lightgreen;
+}
+#contacto:target {
+    background-color: lightsalmon;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="cajanew">
+            <h1 class="center">MI PORTAFOLIO<h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Sobre mi</a></li>
+                        <li><a href="#portafolio">portafolio</a></li>
+                        <li><a href="#contacto">contacto</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <section id="about">
+        <h2 style="font-family: Arial, Helvetica, sans-serif;">Sobre mi</h2>
+        <p>Hola soy Cristian , un tecnologo en diseño y administracion de empresas que esta reforzando su aprendizaje en programacion para adquirir nuevas oportunidades de trabajo.
+            Me gusta la programacion y el diseño web, me gusta aprender cosas nuevas y me gusta trabajar en equipo, actualmente trabajo como dibujante para una empresa de ingenieria
+            civil manejando un programa llamado Autocad Civil3d el cual aprendi a usar empiricamente, entre otros programas complementarios.
+        </p>
+    </section>
+    <section id="portafolio">
+        <h2>portafolio</h2>
+        <div class="galery">
+            <div class="project">
+                <img id=small src="for-blog-4.gif" alt="proyecto 1">
+                <h3>Aplicación de lista de tareas</h3>
+                <p>Este proyecto consiste en crear una aplicación web que permita a los usuarios agregar, editar y eliminar tareas. La aplicación podría incluir características como 
+                    la posibilidad de marcar tareas como completadas, asignar fechas de vencimiento y organizar las tareas en categorías. Este proyecto te ayudará a practicar el manejo
+                     de formularios, la manipulación del DOM y la utilización de bases de datos para almacenar la información de las tareas.</p>
+            </div>
+            <div class="project">
+                <img id=small src="RED.gif" alt="proyecto 2">
+                <h3>Sitio web de portafolio personal</h3>
+                <p>En este proyecto, desarrollarías un sitio web donde puedas mostrar tus habilidades, proyectos y experiencias. El sitio web podría incluir secciones como una página 
+                    de inicio, una biografía, una galería de proyectos y un formulario de contacto. Este proyecto te permitirá trabajar en el diseño y la estructura de un sitio web, así 
+                    como en la integración de diferentes tecnologías como HTML, CSS y JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nombre</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Correo Electrónico</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Mensaje</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
