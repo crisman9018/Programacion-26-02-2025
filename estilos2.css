@@ -1,0 +1,33 @@
+body {
+    background-image: url('fondo.png');
+    background-size: cover;
+    background: position 100%;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: steelblue;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 4px solid #336699;
+    padding:5px;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+h2{font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+text-align: left;
+}
+.contenedor2 {
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            border: 2px solid lightskyblue;
+            margin-top: 20px;
+            background-color: rgba(132, 171, 202, 0.4);
+            color : black
+}
